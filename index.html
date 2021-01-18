@@ -9,7 +9,7 @@
 </head>
 <h1 class="text-6xl font-bold text-center mt-8 mb-6">What's good.</h1>
 
-<div class="flex">
+<div class="md:flex">
 
     <div class="mx-auto">
         <h2 class="text-3xl text-yellow-400 rounded-xl bg-gray-600 font-bold text-center border-4 px-4 py-4 border-green-400">Welcome to Adrian's Cookies</h2>
@@ -26,19 +26,20 @@
         <p>We offer three mouthwatering varieties of Adrian's Cookies:</p>
 </div>
 
-<div class="flex">
-    <div class="text-center border-4 w-1/3 border-purple-500 rounded xl mx-4">
-        <div class="text-2xl mb-4 mt-1 font-bold">"Big Lebowski"</div>
+<div class="md:flex">
+    <div class="text-center border-4 md:w-1/3 border-purple-500 rounded xl mx-4">
+        <div class="text-2xl mb-2 mt-1 font-bold">"Big Lebowski"</div>
             <div class="font-bold underline mb-1"><p>Ingredients:</p></div>
                 <li>Butter</li>
                 <li>Sugar</li>
                 <li>Flour</li>
                 <li>Eggs</li>
+                <li>Baking Powder</li>
                 <li>Kahlua</li>
                 <li>Milk</li>
                 <li>Vodka</li></div>
-    <div class="text-center border-4 w-1/3 border-purple-500 rounded xl mx-4">
-        <div class="text-2xl mb-4 mt-1 font-bold">"James Bond"</div>
+    <div class="text-center border-4 md:w-1/3 border-purple-500 rounded xl mx-4">
+        <div class="text-2xl mb-2 mt-1 font-bold">"James Bond"</div>
             <div class="font-bold underline mb-1"><p>Ingredients:</p></div>
                 <li>Butter</li>
                 <li>Sugar</li>
@@ -49,8 +50,8 @@
                 <li>Lillet Blanc</li>
                 <li>Lemon Peel</li>
                 <li>Cocktail Shaker</li></div>
-    <div class="text-center border-4 w-1/3 border-purple-500 rounded xl mx-4">
-        <div class="text-2xl mb-4 mt-1 font-bold">"Sex & The City"</div>
+    <div class="text-center border-4 md:w-1/3 border-purple-500 rounded xl mx-4">
+        <div class="text-2xl mb-2 mt-1 font-bold">"Sex & The City"</div>
             <div class="font-bold underline mb-1"><p>Ingredients:</p></div>
                 <li>Butter</li>
                 <li>Sugar</li>
@@ -62,8 +63,51 @@
                 <li>Cranberry Juice</li></div>
     
 </div>
-
 </div>
+
+<div class=flex>
+    <div class="text-center border-4 md:w-1/2 border-gray-500 rounded mx-4">
+        <div class="font-bold underline"><h2>Which Variety would you like to order?</h2></div>
+        <form>
+            <label class="container">Big Lebowski
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">James Bond
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Sex & The City
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+
+    </div>
+    <div class="text-center border-4 md:w-1/2 border-gray-500 rounded mx-4">
+    <div class="font-bold underline"><h3>How much would you like to order</h3></div>
+
+        <label for="Volume" class="container">0.5 lb
+            <input class="border" id="Volume" type="checkbox">
+            <span class="checkmark"></span>
+        </label>        
+        <label for="Volume" class="container">1 lb
+            <input class="border" id="Volume" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label for="Volume" class="container">2 lbs
+            <input class="border" id="Volume" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <label for="Volume" class="container">5 lbs
+            <input class="border" id="Volume" type="checkbox">
+            <span class="checkmark"></span>
+        </label>
+        <button class="bg-blue-400 px-4 py-2 border-2 border-gray-800 rounded">Submit</button>
+    </form>
+    </div>
+</div>
+
 </body>
 </form>
 </html>
